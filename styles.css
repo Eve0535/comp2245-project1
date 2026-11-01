@@ -130,3 +130,59 @@ section{
     font-style: normal;
 }
 
+.signup h2,
+.signup > .container > p {
+    text-align: center;
+}
+
+#signup-form {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.field input,
+.field select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    font: inherit;
+}
+
+#signup-form .btn {
+    width: 100%;
+}
+
+
+.error {
+    font-size: 0.85rem;
+    color: red;
+    min-height: 1.2em;
+}
+
+
+[aria-invalid="true"] {
+    border: 2px solid red;
+}
+
+
+#form-message.success {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: lightgreen;
+    color: darkgreen;
+    font-weight: bold;
+    border-radius: 8px;
+}
