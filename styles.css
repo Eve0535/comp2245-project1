@@ -21,3 +21,18 @@ section{
    padding-top: 80px;
    padding-bottom: 80px;
 }
+
+.btn{
+   background-color:green;
+   color: white;
+   font-weight: bold;
+   border: none;
+   text-decoration: none;
+   border-radius: 8px;
+   padding: 12px 24px;
+   display: inline-block;
+}
+
+.btn:hover{
+   background-color: darkgreen;
+}
