@@ -85,6 +85,48 @@ section{
 }
 .feature{
    padding:32px;
-   border: radius 12px;
+   border-radius:12px;
    background-color: lightgrey;
 }
+
+.visit .container{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 48px;
+   align-items: center;
+}
+.hours{
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.hours caption{
+   text-align:left;
+ }
+
+.hours th,
+.hours td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid lightgreen;
+}
+.hours thead {
+    background-color: green;
+    color: white;
+}
+
+.testimonal{
+   padding: 32px;
+    background-color: white;
+    border-left: 6px solid green;
+    border-radius: 0 12px 12px 0;
+    margin: 0;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+.testimonial footer {
+    font-size: 0.85rem;
+    color: grey;
+    font-style: normal;
+}
+
