@@ -62,3 +62,13 @@ section{
     border-bottom: 1px solid lightgrey;
     padding: 16px 0;
 }
+.hero .container{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   gap:48px;
+   align-items:center;
+}
+.hero p{
+   font-size: 1.1rem;
+   margin-bottom:24px;
+}
